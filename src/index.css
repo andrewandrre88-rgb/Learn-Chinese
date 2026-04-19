@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gum-pink: #ff90e8;
+  --color-gum-yellow: #ffde00;
+  --color-gum-teal: #00aa8d;
+  --color-gum-bg: #f4f4f0;
+  --color-gum-black: #000000;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-gum-bg text-gum-black font-sans antialiased;
+  }
+}
+
+@utility brutal-border {
+  @apply border-2 border-gum-black;
+}
+
+@utility brutal-shadow {
+  @apply shadow-[4px_4px_0px_0px_rgba(0,0,0,1)];
+}
+
+@utility brutal-shadow-hover {
+  @apply hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-all duration-200;
+}
+
+@utility brutal-card {
+  @apply brutal-border brutal-shadow bg-white rounded-2xl p-6;
+}
+
+@utility brutal-btn {
+  @apply brutal-border brutal-shadow px-6 py-3 font-bold rounded-lg transition-all active:translate-x-[2px] active:translate-y-[2px] active:shadow-none;
+}
+
+@utility brutal-btn-black {
+  @apply brutal-btn bg-gum-black text-white hover:bg-zinc-800;
+}
+
+@utility brutal-btn-pink {
+  @apply brutal-btn bg-gum-pink text-gum-black hover:bg-[#ff7ae3];
+}
+
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
