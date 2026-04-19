@@ -37,8 +37,8 @@ export default function App() {
                   你好! START SPEAKING TODAY
                 </div>
                 <img 
-                  src="https://picsum.photos/seed/china-landscape/600/400" 
-                  alt="China Course Preview" 
+                  src="https://china-underground.com/wp-content/uploads/2023/03/China-culture-and-traditions.jpg" 
+                  alt="China Culture and Traditions" 
                   className="w-full brutal-border rounded-xl relative z-10"
                   referrerPolicy="no-referrer"
                 />

@@ -15,7 +15,7 @@ const FEATURES: Feature[] = [
     title: "Tone Training",
     description: "Don't sound like a robot. Our interactive tone trainer helps you master the 4 tones (and the neutral one) through visual acoustic feedback.",
     color: "bg-white",
-    image: "https://picsum.photos/seed/china1/400/300",
+    image: "https://www.eyeonasia.gov.sg/images/china/Overview-of-China-new.jpg",
     badge: "EXPERT",
     badgeColor: "bg-gum-yellow"
   },
@@ -24,19 +24,19 @@ const FEATURES: Feature[] = [
     description: "Forget the dictionary. Learn the most common 1,000 words that make up 80% of daily conversation. SRS-powered for maximum retention.",
     color: "bg-white",
     stats: { words: "2.5k", learned: "92%" },
-    image: "https://picsum.photos/seed/china2/400/300"
+    image: "https://blog.keatschinese.com/wp-content/uploads/2020/09/mandarin_character_poster.png"
   },
   {
     title: "Speaking Exercises",
     description: "Real-world scenarios. Practice ordering food, taking a taxi, or negotiating a business deal with our native-recorded audio dialogues.",
     color: "bg-white",
-    image: "https://picsum.photos/seed/china3/400/300"
+    image: "https://i0.wp.com/www.taiwanese-secrets.com/wp-content/uploads/chinese-alphabet-symbols.jpg?ssl=1"
   },
   {
     title: "Character Guide",
     description: "Understand the logic behind the strokes. We break down the most common 500 characters so you can read menus and signs with ease.",
     color: "bg-white",
-    image: "https://picsum.photos/seed/china4/400/300"
+    image: "https://www.mcislanguages.com/wp-content/uploads/2019/04/chinese-writing-and-calligraphy_6.jpg"
   }
 ];
 
