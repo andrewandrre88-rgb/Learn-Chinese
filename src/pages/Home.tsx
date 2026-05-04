@@ -3,6 +3,7 @@ import Marquee from "../components/Marquee";
 import FeatureGrid from "../components/FeatureGrid";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 import Countdown from "../components/Countdown";
 import { motion } from "motion/react";
 
@@ -24,6 +25,8 @@ export default function Home() {
           JOIN NOW
         </Link>
       </div>
+
+      <Header />
 
       <main className="flex-grow">
         <Hero />
