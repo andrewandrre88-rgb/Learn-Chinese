@@ -1,5 +1,5 @@
-import { Search } from "lucide-react";
 import { motion } from "motion/react";
+import { Link } from "react-router-dom";
 import Countdown from "./Countdown";
 
 export default function Hero() {
@@ -13,7 +13,7 @@ export default function Hero() {
         className="absolute left-10 top-20 hidden lg:block"
       >
         <div className="w-24 h-24 bg-gum-pink brutal-border rounded-full flex items-center justify-center text-4xl font-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-          G
+          中
         </div>
       </motion.div>
 
@@ -24,7 +24,7 @@ export default function Hero() {
         className="absolute right-10 bottom-20 hidden lg:block"
       >
         <div className="w-32 h-32 bg-gum-pink brutal-border rounded-full flex items-center justify-center text-5xl font-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-          G
+          文
         </div>
       </motion.div>
 
@@ -44,9 +44,9 @@ export default function Hero() {
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-          <button className="brutal-btn-black text-2xl px-16 py-6 w-full sm:w-auto hover:bg-gum-pink hover:text-black transition-colors">
+          <Link to="/pricing" className="brutal-btn-black text-2xl px-16 py-6 w-full sm:w-auto hover:bg-gum-pink hover:text-black transition-colors inline-block text-center">
             Claim My Discount Now — $49
-          </button>
+          </Link>
           
           <div className="flex flex-col items-center sm:items-start gap-1">
             <div className="flex items-center gap-2 font-black text-zinc-800">
